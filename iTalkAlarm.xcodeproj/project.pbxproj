@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* iTalkAlarmAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* iTalkAlarmAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		F9070C7915E4A6E200DD5287 /* aps_development.cer in Resources */ = {isa = PBXBuildFile; fileRef = F9070C7815E4A6E200DD5287 /* aps_development.cer */; };
+		F907821B15D8C8F9009EB487 /* iTunesArtwork .png in Resources */ = {isa = PBXBuildFile; fileRef = F907821A15D8C8F9009EB487 /* iTunesArtwork .png */; };
+		F907821D15D8C8FF009EB487 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F907821C15D8C8FF009EB487 /* Icon@2x.png */; };
+		F907821F15D8C906009EB487 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = F907821E15D8C906009EB487 /* Icon-72.png */; };
+		F907822315D8C912009EB487 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = F907822215D8C912009EB487 /* Icon-Small-50.png */; };
+		F907822515D8C91A009EB487 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F907822415D8C91A009EB487 /* Icon-Small@2x.png */; };
+		F907825A15D8CC7F009EB487 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F907825915D8CC7F009EB487 /* Icon.png */; };
+		F907828315D8CE81009EB487 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = F907827A15D8CE57009EB487 /* Icon-Small.png */; };
+		F91F1E4915CF8615008446E6 /* Purr.aiff in Resources */ = {isa = PBXBuildFile; fileRef = F91F1E4815CF8615008446E6 /* Purr.aiff */; };
+		F91F1E6015CF8872008446E6 /* Basso.aiff in Resources */ = {isa = PBXBuildFile; fileRef = F91F1E5F15CF8872008446E6 /* Basso.aiff */; };
+		F91F1E6215CF8877008446E6 /* Blow.aiff in Resources */ = {isa = PBXBuildFile; fileRef = F91F1E6115CF8877008446E6 /* Blow.aiff */; };
+		F91F1E6415CF887C008446E6 /* Bottle.aiff in Resources */ = {isa = PBXBuildFile; fileRef = F91F1E6315CF887C008446E6 /* Bottle.aiff */; };
+		F91F1E6615CF8881008446E6 /* Frog.aiff in Resources */ = {isa = PBXBuildFile; fileRef = F91F1E6515CF8881008446E6 /* Frog.aiff */; };
+		F91F1E6815CF8886008446E6 /* Funk.aiff in Resources */ = {isa = PBXBuildFile; fileRef = F91F1E6715CF8886008446E6 /* Funk.aiff */; };
+		F91F1E6A15CF888E008446E6 /* Hero.aiff in Resources */ = {isa = PBXBuildFile; fileRef = F91F1E6915CF888E008446E6 /* Hero.aiff */; };
+		F91F1E6C15CF8893008446E6 /* Morse.aiff in Resources */ = {isa = PBXBuildFile; fileRef = F91F1E6B15CF8893008446E6 /* Morse.aiff */; };
+		F91F1E6E15CF8896008446E6 /* Ping.aiff in Resources */ = {isa = PBXBuildFile; fileRef = F91F1E6D15CF8896008446E6 /* Ping.aiff */; };
+		F91F1E7015CF889B008446E6 /* Pop.aiff in Resources */ = {isa = PBXBuildFile; fileRef = F91F1E6F15CF889B008446E6 /* Pop.aiff */; };
+		F91F1E7215CF88A8008446E6 /* Submarine.aiff in Resources */ = {isa = PBXBuildFile; fileRef = F91F1E7115CF88A8008446E6 /* Submarine.aiff */; };
+		F91F1E7415CF88AA008446E6 /* Tink.aiff in Resources */ = {isa = PBXBuildFile; fileRef = F91F1E7315CF88AA008446E6 /* Tink.aiff */; };
+		F93804B515EDD1740053F2A2 /* SingletonClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F93804B415EDD1740053F2A2 /* SingletonClass.m */; };
+		F947410215C9291E00D66FBD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F947410115C9291E00D66FBD /* QuartzCore.framework */; };
+		F947416415C92E7300D66FBD /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F947416315C92E7300D66FBD /* MediaPlayer.framework */; };
+		F9582CE415E5F39900651C51 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = F9582CDB15E5F39900651C51 /* NSObject+SBJSON.m */; };
+		F9582CE515E5F39900651C51 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = F9582CDD15E5F39900651C51 /* NSString+SBJSON.m */; };
+		F9582CE615E5F39900651C51 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = F9582CDF15E5F39900651C51 /* SBJsonBase.m */; };
+		F9582CE715E5F39900651C51 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F9582CE115E5F39900651C51 /* SBJsonParser.m */; };
+		F9582CE815E5F39900651C51 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = F9582CE315E5F39900651C51 /* SBJsonWriter.m */; };
+		F96BED3615C68A920079236D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F96BED3515C68A920079236D /* AudioToolbox.framework */; };
+		F96BED3815C68AA40079236D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F96BED3715C68AA40079236D /* AVFoundation.framework */; };
+		F96BEDFE15C6A59A0079236D /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F96BEDFD15C6A59A0079236D /* CoreAudio.framework */; };
+		F9B2B44F15C655EA008E7733 /* RecordVoice.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B2B44D15C655EA008E7733 /* RecordVoice.m */; };
+		F9B2B45015C655EA008E7733 /* RecordVoice.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9B2B44E15C655EA008E7733 /* RecordVoice.xib */; };
+		F9B2B45E15C65638008E7733 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B2B45C15C65638008E7733 /* MainView.m */; };
+		F9B2B45F15C65638008E7733 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9B2B45D15C65638008E7733 /* MainView.xib */; };
+		F9B2B4C415C65EA3008E7733 /* SetAlarm.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B2B4C215C65EA3008E7733 /* SetAlarm.m */; };
+		F9B2B4C515C65EA3008E7733 /* SetAlarm.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9B2B4C315C65EA3008E7733 /* SetAlarm.xib */; };
+		F9B2B4CC15C65F14008E7733 /* ViewAlarm.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B2B4CA15C65F14008E7733 /* ViewAlarm.m */; };
+		F9B2B4CD15C65F14008E7733 /* ViewAlarm.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9B2B4CB15C65F14008E7733 /* ViewAlarm.xib */; };
+		F9DA85E515D2239500B6EE9B /* AlarmRepeat.m in Sources */ = {isa = PBXBuildFile; fileRef = F9DA85E315D2239500B6EE9B /* AlarmRepeat.m */; };
+		F9DA85E615D2239500B6EE9B /* AlarmRepeat.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9DA85E415D2239500B6EE9B /* AlarmRepeat.xib */; };
+		F9F9E39D15CBC99100B08836 /* setLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F9E39B15CBC99100B08836 /* setLabel.m */; };
+		F9F9E39E15CBC99100B08836 /* setLabel.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9F9E39C15CBC99100B08836 /* setLabel.xib */; };
+		F9F9E3AB15CBCE4100B08836 /* CustomAlarmTable.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F9E3AA15CBCE4100B08836 /* CustomAlarmTable.m */; };
+		F9F9E41315CBD61B00B08836 /* setSound.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F9E41115CBD61B00B08836 /* setSound.m */; };
+		F9F9E41415CBD61B00B08836 /* setSound.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9F9E41215CBD61B00B08836 /* setSound.xib */; };
+		F9F9E43215CBE46200B08836 /* CustomViewAlarmTable.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F9E43115CBE46200B08836 /* CustomViewAlarmTable.m */; };
+		F9FD258915EF85FC00CA9B9B /* sendAlarm.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FD258715EF85FC00CA9B9B /* sendAlarm.m */; };
+		F9FD258A15EF85FC00CA9B9B /* sendAlarm.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9FD258815EF85FC00CA9B9B /* sendAlarm.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* iTalkAlarmAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTalkAlarmAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* iTalkAlarmAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iTalkAlarmAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* iTalkAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTalkAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* iTalkAlarm_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTalkAlarm_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* iTalkAlarm-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iTalkAlarm-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		F9070C7815E4A6E200DD5287 /* aps_development.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = aps_development.cer; sourceTree = "<group>"; };
+		F907821A15D8C8F9009EB487 /* iTunesArtwork .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork .png"; sourceTree = "<group>"; };
+		F907821C15D8C8FF009EB487 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		F907821E15D8C906009EB487 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		F907822215D8C912009EB487 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		F907822415D8C91A009EB487 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		F907825915D8CC7F009EB487 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		F907827A15D8CE57009EB487 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		F91F1E4815CF8615008446E6 /* Purr.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Purr.aiff; sourceTree = "<group>"; };
+		F91F1E5F15CF8872008446E6 /* Basso.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Basso.aiff; sourceTree = "<group>"; };
+		F91F1E6115CF8877008446E6 /* Blow.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Blow.aiff; sourceTree = "<group>"; };
+		F91F1E6315CF887C008446E6 /* Bottle.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Bottle.aiff; sourceTree = "<group>"; };
+		F91F1E6515CF8881008446E6 /* Frog.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Frog.aiff; sourceTree = "<group>"; };
+		F91F1E6715CF8886008446E6 /* Funk.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Funk.aiff; sourceTree = "<group>"; };
+		F91F1E6915CF888E008446E6 /* Hero.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Hero.aiff; sourceTree = "<group>"; };
+		F91F1E6B15CF8893008446E6 /* Morse.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Morse.aiff; sourceTree = "<group>"; };
+		F91F1E6D15CF8896008446E6 /* Ping.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Ping.aiff; sourceTree = "<group>"; };
+		F91F1E6F15CF889B008446E6 /* Pop.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Pop.aiff; sourceTree = "<group>"; };
+		F91F1E7115CF88A8008446E6 /* Submarine.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Submarine.aiff; sourceTree = "<group>"; };
+		F91F1E7315CF88AA008446E6 /* Tink.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Tink.aiff; sourceTree = "<group>"; };
+		F93804B315EDD1740053F2A2 /* SingletonClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonClass.h; sourceTree = "<group>"; };
+		F93804B415EDD1740053F2A2 /* SingletonClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingletonClass.m; sourceTree = "<group>"; };
+		F947410115C9291E00D66FBD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F947416315C92E7300D66FBD /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		F9582CD915E5F39900651C51 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		F9582CDA15E5F39900651C51 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		F9582CDB15E5F39900651C51 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		F9582CDC15E5F39900651C51 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		F9582CDD15E5F39900651C51 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		F9582CDE15E5F39900651C51 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		F9582CDF15E5F39900651C51 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		F9582CE015E5F39900651C51 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		F9582CE115E5F39900651C51 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		F9582CE215E5F39900651C51 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		F9582CE315E5F39900651C51 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		F96BED3515C68A920079236D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F96BED3715C68AA40079236D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F96BEDFD15C6A59A0079236D /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
+		F9B2B44C15C655EA008E7733 /* RecordVoice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordVoice.h; sourceTree = "<group>"; };
+		F9B2B44D15C655EA008E7733 /* RecordVoice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordVoice.m; sourceTree = "<group>"; };
+		F9B2B44E15C655EA008E7733 /* RecordVoice.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecordVoice.xib; sourceTree = "<group>"; };
+		F9B2B45B15C65638008E7733 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		F9B2B45C15C65638008E7733 /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
+		F9B2B45D15C65638008E7733 /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		F9B2B4C115C65EA3008E7733 /* SetAlarm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetAlarm.h; sourceTree = "<group>"; };
+		F9B2B4C215C65EA3008E7733 /* SetAlarm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetAlarm.m; sourceTree = "<group>"; };
+		F9B2B4C315C65EA3008E7733 /* SetAlarm.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SetAlarm.xib; sourceTree = "<group>"; };
+		F9B2B4C915C65F14008E7733 /* ViewAlarm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewAlarm.h; sourceTree = "<group>"; };
+		F9B2B4CA15C65F14008E7733 /* ViewAlarm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewAlarm.m; sourceTree = "<group>"; };
+		F9B2B4CB15C65F14008E7733 /* ViewAlarm.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewAlarm.xib; sourceTree = "<group>"; };
+		F9B2B5A015C67E57008E7733 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		F9DA85E215D2239500B6EE9B /* AlarmRepeat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmRepeat.h; sourceTree = "<group>"; };
+		F9DA85E315D2239500B6EE9B /* AlarmRepeat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmRepeat.m; sourceTree = "<group>"; };
+		F9DA85E415D2239500B6EE9B /* AlarmRepeat.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlarmRepeat.xib; sourceTree = "<group>"; };
+		F9F9E39A15CBC99100B08836 /* setLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = setLabel.h; sourceTree = "<group>"; };
+		F9F9E39B15CBC99100B08836 /* setLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = setLabel.m; sourceTree = "<group>"; };
+		F9F9E39C15CBC99100B08836 /* setLabel.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = setLabel.xib; sourceTree = "<group>"; };
+		F9F9E3A915CBCE4100B08836 /* CustomAlarmTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAlarmTable.h; sourceTree = "<group>"; };
+		F9F9E3AA15CBCE4100B08836 /* CustomAlarmTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAlarmTable.m; sourceTree = "<group>"; };
+		F9F9E41015CBD61B00B08836 /* setSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = setSound.h; sourceTree = "<group>"; };
+		F9F9E41115CBD61B00B08836 /* setSound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = setSound.m; sourceTree = "<group>"; };
+		F9F9E41215CBD61B00B08836 /* setSound.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = setSound.xib; sourceTree = "<group>"; };
+		F9F9E43015CBE46200B08836 /* CustomViewAlarmTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewAlarmTable.h; sourceTree = "<group>"; };
+		F9F9E43115CBE46200B08836 /* CustomViewAlarmTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewAlarmTable.m; sourceTree = "<group>"; };
+		F9FD258615EF85FC00CA9B9B /* sendAlarm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sendAlarm.h; sourceTree = "<group>"; };
+		F9FD258715EF85FC00CA9B9B /* sendAlarm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sendAlarm.m; sourceTree = "<group>"; };
+		F9FD258815EF85FC00CA9B9B /* sendAlarm.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = sendAlarm.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				F96BED3615C68A920079236D /* AudioToolbox.framework in Frameworks */,
+				F96BED3815C68AA40079236D /* AVFoundation.framework in Frameworks */,
+				F96BEDFE15C6A59A0079236D /* CoreAudio.framework in Frameworks */,
+				F947410215C9291E00D66FBD /* QuartzCore.framework in Frameworks */,
+				F947416415C92E7300D66FBD /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* iTalkAlarmAppDelegate.h */,
+				1D3623250D0F684500981E51 /* iTalkAlarmAppDelegate.m */,
+				F93804B315EDD1740053F2A2 /* SingletonClass.h */,
+				F93804B415EDD1740053F2A2 /* SingletonClass.m */,
+				F9B2B45B15C65638008E7733 /* MainView.h */,
+				F9B2B45C15C65638008E7733 /* MainView.m */,
+				F9B2B45D15C65638008E7733 /* MainView.xib */,
+				F9B2B44C15C655EA008E7733 /* RecordVoice.h */,
+				F9B2B44D15C655EA008E7733 /* RecordVoice.m */,
+				F9B2B44E15C655EA008E7733 /* RecordVoice.xib */,
+				F9F9E3A915CBCE4100B08836 /* CustomAlarmTable.h */,
+				F9F9E3AA15CBCE4100B08836 /* CustomAlarmTable.m */,
+				F9F9E43015CBE46200B08836 /* CustomViewAlarmTable.h */,
+				F9F9E43115CBE46200B08836 /* CustomViewAlarmTable.m */,
+				F9F9E41015CBD61B00B08836 /* setSound.h */,
+				F9F9E41115CBD61B00B08836 /* setSound.m */,
+				F9F9E41215CBD61B00B08836 /* setSound.xib */,
+				F9B2B4C115C65EA3008E7733 /* SetAlarm.h */,
+				F9B2B4C215C65EA3008E7733 /* SetAlarm.m */,
+				F9B2B4C315C65EA3008E7733 /* SetAlarm.xib */,
+				F9DA85E215D2239500B6EE9B /* AlarmRepeat.h */,
+				F9DA85E315D2239500B6EE9B /* AlarmRepeat.m */,
+				F9DA85E415D2239500B6EE9B /* AlarmRepeat.xib */,
+				F9F9E39A15CBC99100B08836 /* setLabel.h */,
+				F9F9E39B15CBC99100B08836 /* setLabel.m */,
+				F9F9E39C15CBC99100B08836 /* setLabel.xib */,
+				F9B2B4C915C65F14008E7733 /* ViewAlarm.h */,
+				F9B2B4CA15C65F14008E7733 /* ViewAlarm.m */,
+				F9B2B4CB15C65F14008E7733 /* ViewAlarm.xib */,
+				F9FD258615EF85FC00CA9B9B /* sendAlarm.h */,
+				F9FD258715EF85FC00CA9B9B /* sendAlarm.m */,
+				F9FD258815EF85FC00CA9B9B /* sendAlarm.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* iTalkAlarm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				F9582CD815E5F39900651C51 /* jsonClass */,
+				F91F1E4315CF8605008446E6 /* music */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				F9B2B5A015C67E57008E7733 /* Entitlements.plist */,
+				F947416315C92E7300D66FBD /* MediaPlayer.framework */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* iTalkAlarm_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F9070C7815E4A6E200DD5287 /* aps_development.cer */,
+				F907821715D8C8D6009EB487 /* images */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* iTalkAlarm-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F947410115C9291E00D66FBD /* QuartzCore.framework */,
+				F96BEDFD15C6A59A0079236D /* CoreAudio.framework */,
+				F96BED3515C68A920079236D /* AudioToolbox.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				F96BED3715C68AA40079236D /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F907821715D8C8D6009EB487 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F907821A15D8C8F9009EB487 /* iTunesArtwork .png */,
+				F907825915D8CC7F009EB487 /* Icon.png */,
+				F907821C15D8C8FF009EB487 /* Icon@2x.png */,
+				F907821E15D8C906009EB487 /* Icon-72.png */,
+				F907827A15D8CE57009EB487 /* Icon-Small.png */,
+				F907822215D8C912009EB487 /* Icon-Small-50.png */,
+				F907822415D8C91A009EB487 /* Icon-Small@2x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		F91F1E4315CF8605008446E6 /* music */ = {
+			isa = PBXGroup;
+			children = (
+				F91F1E5F15CF8872008446E6 /* Basso.aiff */,
+				F91F1E6115CF8877008446E6 /* Blow.aiff */,
+				F91F1E6315CF887C008446E6 /* Bottle.aiff */,
+				F91F1E6515CF8881008446E6 /* Frog.aiff */,
+				F91F1E6715CF8886008446E6 /* Funk.aiff */,
+				F91F1E6915CF888E008446E6 /* Hero.aiff */,
+				F91F1E6B15CF8893008446E6 /* Morse.aiff */,
+				F91F1E6D15CF8896008446E6 /* Ping.aiff */,
+				F91F1E6F15CF889B008446E6 /* Pop.aiff */,
+				F91F1E4815CF8615008446E6 /* Purr.aiff */,
+				F91F1E7115CF88A8008446E6 /* Submarine.aiff */,
+				F91F1E7315CF88AA008446E6 /* Tink.aiff */,
+			);
+			name = music;
+			sourceTree = "<group>";
+		};
+		F9582CD815E5F39900651C51 /* jsonClass */ = {
+			isa = PBXGroup;
+			children = (
+				F9582CD915E5F39900651C51 /* JSON.h */,
+				F9582CDA15E5F39900651C51 /* NSObject+SBJSON.h */,
+				F9582CDB15E5F39900651C51 /* NSObject+SBJSON.m */,
+				F9582CDC15E5F39900651C51 /* NSString+SBJSON.h */,
+				F9582CDD15E5F39900651C51 /* NSString+SBJSON.m */,
+				F9582CDE15E5F39900651C51 /* SBJsonBase.h */,
+				F9582CDF15E5F39900651C51 /* SBJsonBase.m */,
+				F9582CE015E5F39900651C51 /* SBJsonParser.h */,
+				F9582CE115E5F39900651C51 /* SBJsonParser.m */,
+				F9582CE215E5F39900651C51 /* SBJsonWriter.h */,
+				F9582CE315E5F39900651C51 /* SBJsonWriter.m */,
+			);
+			path = jsonClass;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* iTalkAlarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iTalkAlarm" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iTalkAlarm;
+			productName = iTalkAlarm;
+			productReference = 1D6058910D05DD3D006BFB54 /* iTalkAlarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iTalkAlarm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* iTalkAlarm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				F9B2B45015C655EA008E7733 /* RecordVoice.xib in Resources */,
+				F9B2B45F15C65638008E7733 /* MainView.xib in Resources */,
+				F9B2B4C515C65EA3008E7733 /* SetAlarm.xib in Resources */,
+				F9B2B4CD15C65F14008E7733 /* ViewAlarm.xib in Resources */,
+				F9F9E39E15CBC99100B08836 /* setLabel.xib in Resources */,
+				F9F9E41415CBD61B00B08836 /* setSound.xib in Resources */,
+				F91F1E4915CF8615008446E6 /* Purr.aiff in Resources */,
+				F91F1E6015CF8872008446E6 /* Basso.aiff in Resources */,
+				F91F1E6215CF8877008446E6 /* Blow.aiff in Resources */,
+				F91F1E6415CF887C008446E6 /* Bottle.aiff in Resources */,
+				F91F1E6615CF8881008446E6 /* Frog.aiff in Resources */,
+				F91F1E6815CF8886008446E6 /* Funk.aiff in Resources */,
+				F91F1E6A15CF888E008446E6 /* Hero.aiff in Resources */,
+				F91F1E6C15CF8893008446E6 /* Morse.aiff in Resources */,
+				F91F1E6E15CF8896008446E6 /* Ping.aiff in Resources */,
+				F91F1E7015CF889B008446E6 /* Pop.aiff in Resources */,
+				F91F1E7215CF88A8008446E6 /* Submarine.aiff in Resources */,
+				F91F1E7415CF88AA008446E6 /* Tink.aiff in Resources */,
+				F9DA85E615D2239500B6EE9B /* AlarmRepeat.xib in Resources */,
+				F907821B15D8C8F9009EB487 /* iTunesArtwork .png in Resources */,
+				F907821D15D8C8FF009EB487 /* Icon@2x.png in Resources */,
+				F907821F15D8C906009EB487 /* Icon-72.png in Resources */,
+				F907822315D8C912009EB487 /* Icon-Small-50.png in Resources */,
+				F907822515D8C91A009EB487 /* Icon-Small@2x.png in Resources */,
+				F907825A15D8CC7F009EB487 /* Icon.png in Resources */,
+				F907828315D8CE81009EB487 /* Icon-Small.png in Resources */,
+				F9070C7915E4A6E200DD5287 /* aps_development.cer in Resources */,
+				F9FD258A15EF85FC00CA9B9B /* sendAlarm.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* iTalkAlarmAppDelegate.m in Sources */,
+				F9B2B44F15C655EA008E7733 /* RecordVoice.m in Sources */,
+				F9B2B45E15C65638008E7733 /* MainView.m in Sources */,
+				F9B2B4C415C65EA3008E7733 /* SetAlarm.m in Sources */,
+				F9B2B4CC15C65F14008E7733 /* ViewAlarm.m in Sources */,
+				F9F9E39D15CBC99100B08836 /* setLabel.m in Sources */,
+				F9F9E3AB15CBCE4100B08836 /* CustomAlarmTable.m in Sources */,
+				F9F9E41315CBD61B00B08836 /* setSound.m in Sources */,
+				F9F9E43215CBE46200B08836 /* CustomViewAlarmTable.m in Sources */,
+				F9DA85E515D2239500B6EE9B /* AlarmRepeat.m in Sources */,
+				F9582CE415E5F39900651C51 /* NSObject+SBJSON.m in Sources */,
+				F9582CE515E5F39900651C51 /* NSString+SBJSON.m in Sources */,
+				F9582CE615E5F39900651C51 /* SBJsonBase.m in Sources */,
+				F9582CE715E5F39900651C51 /* SBJsonParser.m in Sources */,
+				F9582CE815E5F39900651C51 /* SBJsonWriter.m in Sources */,
+				F93804B515EDD1740053F2A2 /* SingletonClass.m in Sources */,
+				F9FD258915EF85FC00CA9B9B /* sendAlarm.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "~/Downloads/VoiceRecord/Entitlements.plist";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iTalkAlarm_Prefix.pch;
+				INFOPLIST_FILE = "iTalkAlarm-Info.plist";
+				PRODUCT_NAME = iTalkAlarm;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "~/Downloads/VoiceRecord/Entitlements.plist";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iTalkAlarm_Prefix.pch;
+				INFOPLIST_FILE = "iTalkAlarm-Info.plist";
+				PRODUCT_NAME = iTalkAlarm;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		F9B2B5A115C67E83008E7733 /* Adhoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jitendra Singh (6N6524R53B)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = iphoneos/usr/include/libxml2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "BD4CB9EA-160E-4F0A-B7BD-D2798EEEF7F3";
+				SDKROOT = iphoneos;
+			};
+			name = Adhoc;
+		};
+		F9B2B5A215C67E83008E7733 /* Adhoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iTalkAlarm_Prefix.pch;
+				HEADER_SEARCH_PATHS = iphoneos/usr/include/libxml2;
+				INFOPLIST_FILE = "iTalkAlarm-Info.plist";
+				LIBRARY_SEARCH_PATHS = "\"/Users/ugsoftware/Desktop/iTalkAlarm\"";
+				PRODUCT_NAME = iTalkAlarm;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Adhoc;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iTalkAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				F9B2B5A215C67E83008E7733 /* Adhoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iTalkAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				F9B2B5A115C67E83008E7733 /* Adhoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

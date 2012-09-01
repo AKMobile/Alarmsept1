@@ -1,0 +1,1043 @@
+TiTalkAlarm
+v7
+r0
+t366872792.900078
+cCheck dependencies
+cProcessInfoPlistFile /Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/Info.plist iTalkAlarm-Info.plist
+cCompileXIB /Users/ugsoftware/Desktop/iTalkAlarm/MainWindow.xib
+cCompileXIB /Users/ugsoftware/Desktop/iTalkAlarm/Classes/RecordVoice.xib
+cCompileXIB /Users/ugsoftware/Desktop/iTalkAlarm/Classes/MainView.xib
+cCompileXIB /Users/ugsoftware/Desktop/iTalkAlarm/Classes/SetAlarm.xib
+cCompileXIB /Users/ugsoftware/Desktop/iTalkAlarm/Classes/ViewAlarm.xib
+cCompileXIB /Users/ugsoftware/Desktop/iTalkAlarm/Classes/setLabel.xib
+cCompileXIB /Users/ugsoftware/Desktop/iTalkAlarm/Classes/setSound.xib
+cCpResource build/Adhoc-iphonesimulator/iTalkAlarm.app/Purr.aiff Purr.aiff
+cCpResource build/Adhoc-iphonesimulator/iTalkAlarm.app/Basso.aiff Basso.aiff
+cCpResource build/Adhoc-iphonesimulator/iTalkAlarm.app/Blow.aiff Blow.aiff
+cCpResource build/Adhoc-iphonesimulator/iTalkAlarm.app/Bottle.aiff Bottle.aiff
+cCpResource build/Adhoc-iphonesimulator/iTalkAlarm.app/Frog.aiff Frog.aiff
+cCpResource build/Adhoc-iphonesimulator/iTalkAlarm.app/Funk.aiff Funk.aiff
+cCpResource build/Adhoc-iphonesimulator/iTalkAlarm.app/Hero.aiff Hero.aiff
+cCpResource build/Adhoc-iphonesimulator/iTalkAlarm.app/Morse.aiff Morse.aiff
+cCpResource build/Adhoc-iphonesimulator/iTalkAlarm.app/Ping.aiff Ping.aiff
+cCpResource build/Adhoc-iphonesimulator/iTalkAlarm.app/Pop.aiff Pop.aiff
+cCpResource build/Adhoc-iphonesimulator/iTalkAlarm.app/Submarine.aiff Submarine.aiff
+cCpResource build/Adhoc-iphonesimulator/iTalkAlarm.app/Tink.aiff Tink.aiff
+cCompileXIB /Users/ugsoftware/Desktop/iTalkAlarm/Classes/AlarmRepeat.xib
+cCpResource "build/Adhoc-iphonesimulator/iTalkAlarm.app/iTunesArtwork .png" "iTunesArtwork .png"
+cCpResource build/Adhoc-iphonesimulator/iTalkAlarm.app/Icon@2x.png Icon@2x.png
+cCpResource build/Adhoc-iphonesimulator/iTalkAlarm.app/Icon-72.png Icon-72.png
+cCpResource build/Adhoc-iphonesimulator/iTalkAlarm.app/Icon-Small-50.png Icon-Small-50.png
+cCpResource build/Adhoc-iphonesimulator/iTalkAlarm.app/Icon-Small@2x.png Icon-Small@2x.png
+cCpResource build/Adhoc-iphonesimulator/iTalkAlarm.app/Icon.png Icon.png
+cCpResource build/Adhoc-iphonesimulator/iTalkAlarm.app/Icon-Small.png Icon-Small.png
+cProcessPCH /var/folders/nZ/nZExU1bOElGlXkz-Qkte3U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iTalkAlarm_Prefix-fegbufqtzjllmshjyincoblapddr/iTalkAlarm_Prefix.pch.gch iTalkAlarm_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/main.o /Users/ugsoftware/Desktop/iTalkAlarm/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/iTalkAlarmAppDelegate.o /Users/ugsoftware/Desktop/iTalkAlarm/Classes/iTalkAlarmAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/RecordVoice.o /Users/ugsoftware/Desktop/iTalkAlarm/Classes/RecordVoice.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/MainView.o /Users/ugsoftware/Desktop/iTalkAlarm/Classes/MainView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/SetAlarm.o /Users/ugsoftware/Desktop/iTalkAlarm/Classes/SetAlarm.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/ViewAlarm.o /Users/ugsoftware/Desktop/iTalkAlarm/Classes/ViewAlarm.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/setLabel.o /Users/ugsoftware/Desktop/iTalkAlarm/Classes/setLabel.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/CustomAlarmTable.o /Users/ugsoftware/Desktop/iTalkAlarm/Classes/CustomAlarmTable.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/setSound.o /Users/ugsoftware/Desktop/iTalkAlarm/Classes/setSound.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/CustomViewAlarmTable.o /Users/ugsoftware/Desktop/iTalkAlarm/Classes/CustomViewAlarmTable.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/AlarmRepeat.o /Users/ugsoftware/Desktop/iTalkAlarm/Classes/AlarmRepeat.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/iTalkAlarm normal i386
+cGenerateDSYMFile /Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app.dSYM /Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/iTalkAlarm
+cTouch /Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D5C9B4E0000000000000110
+t1297914702
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004D5EBEC300000000001340C0
+t1298054851
+s1261760
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004D5EBEBB00000000000007D0
+t1298054843
+s2000
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004D54CF5D0000000000205F50
+t1297403741
+s2121552
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004D54CF4A0000000000000A23
+t1297403722
+s2595
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MediaPlayer.h
+c000000004D5EBF360000000000000294
+t1298054966
+s660
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c000000004D5EBF5300000000001C31B0
+t1298054995
+s1847728
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004D54D2DD00000000000000C4
+t1297404637
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004D54D4200000000000162C50
+t1297404960
+s1453136
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c000000004DEEB6D200000000002181A0
+t1307490002
+s2195872
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/Basso.aiff
+c00000000501F50F200000000000038E2
+t1344229618
+s14562
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/Blow.aiff
+c00000000501F50F7000000000003913A
+t1344229623
+s233786
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/Bottle.aiff
+c00000000501F50FC000000000000601C
+t1344229628
+s24604
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/Classes/AlarmRepeat.h
+c00000000502203DB0000000000000292
+t1344406491
+s658
+i<UIKit/UIKit.h>
+i"iTalkAlarmAppDelegate.h"
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/Classes/AlarmRepeat.m
+c00000000502206D400000000000011F8
+t1344407252
+s4600
+i"AlarmRepeat.h"
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/Classes/AlarmRepeat.xib
+c000000005021FC020000000000007039
+t1344404482
+s28729
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/Classes/CustomAlarmTable.h
+c00000000501B97520000000000000179
+t1343985490
+s377
+i<UIKit/UIKit.h>
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/Classes/CustomAlarmTable.m
+c00000000501B9D5400000000000004A0
+t1343987028
+s1184
+i"CustomAlarmTable.h"
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/Classes/CustomViewAlarmTable.h
+c00000000501BACEA000000000000017F
+t1343991018
+s383
+i<UIKit/UIKit.h>
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/Classes/CustomViewAlarmTable.m
+c00000000501BBE9E00000000000004E0
+t1343995550
+s1248
+i"CustomViewAlarmTable.h"
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/Classes/MainView.h
+c00000000501627C100000000000001D7
+t1343629249
+s471
+i<UIKit/UIKit.h>
+i"RecordVoice.h"
+i"SetAlarm.h"
+i"ViewAlarm.h"
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/Classes/MainView.m
+c00000000501B51AA0000000000000837
+t1343967658
+s2103
+i"MainView.h"
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/Classes/MainView.xib
+c00000000501626610000000000007399
+t1343628897
+s29593
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/Classes/RecordVoice.h
+c000000005023909C00000000000004B3
+t1344508060
+s1203
+i<UIKit/UIKit.h>
+i"SetAlarm.h"
+i"ViewAlarm.h"
+i<AVFoundation/AVFoundation.h>
+i<AudioToolbox/AudioToolbox.h>
+i"iTalkAlarmAppDelegate.h"
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/Classes/RecordVoice.m
+c00000000502DD1200000000000002D2B
+t1345179936
+s11563
+i"RecordVoice.h"
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/Classes/RecordVoice.xib
+c0000000050235144000000000000A7CC
+t1344491844
+s42956
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/Classes/SetAlarm.h
+c0000000050288AE90000000000000754
+t1344834281
+s1876
+i<UIKit/UIKit.h>
+i"RecordVoice.h"
+i"ViewAlarm.h"
+i<QuartzCore/QuartzCore.h>
+i<MediaPlayer/MediaPlayer.h>
+i"CustomAlarmTable.h"
+i"iTalkAlarmAppDelegate.h"
+i"setLabel.h"
+i"setSound.h"
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/Classes/SetAlarm.m
+c00000000502CC53E0000000000002CDF
+t1345111358
+s11487
+i"SetAlarm.h"
+i"AlarmRepeat.h"
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/Classes/SetAlarm.xib
+c000000005024E629000000000000AAEA
+t1344595497
+s43754
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/Classes/ViewAlarm.h
+c000000005020AB870000000000000282
+t1344318343
+s642
+i<UIKit/UIKit.h>
+i"RecordVoice.h"
+i"SetAlarm.h"
+i"CustomViewAlarmTable.h"
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/Classes/ViewAlarm.m
+c000000005020B14B0000000000000F4E
+t1344319819
+s3918
+i"ViewAlarm.h"
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/Classes/ViewAlarm.xib
+c000000005020ABC600000000000089B8
+t1344318406
+s35256
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/Classes/iTalkAlarmAppDelegate.h
+c00000000502A19D5000000000000055E
+t1344936405
+s1374
+i<UIKit/UIKit.h>
+i"MainView.h"
+i"SetAlarm.h"
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/Classes/iTalkAlarmAppDelegate.m
+c00000000502A1A030000000000001204
+t1344936451
+s4612
+i"iTalkAlarmAppDelegate.h"
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/Classes/setLabel.h
+c00000000501B99B500000000000001D7
+t1343986101
+s471
+i<UIKit/UIKit.h>
+i"iTalkAlarmAppDelegate.h"
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/Classes/setLabel.m
+c00000000501F54B700000000000007F0
+t1344230583
+s2032
+i"setLabel.h"
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/Classes/setLabel.xib
+c00000000501B94A2000000000000633F
+t1343984802
+s25407
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/Classes/setSound.h
+c000000005023ACF300000000000002AB
+t1344515315
+s683
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+i"CustomAlarmTable.h"
+i"iTalkAlarmAppDelegate.h"
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/Classes/setSound.m
+c00000000502CC53E00000000000017C7
+t1345111358
+s6087
+i"setSound.h"
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/Classes/setSound.xib
+c000000005023ADDA00000000000067DB
+t1344515546
+s26587
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/Frog.aiff
+c00000000501F510100000000000017C2
+t1344229633
+s6082
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/Funk.aiff
+c00000000501F5106000000000000322E
+t1344229638
+s12846
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/Hero.aiff
+c00000000501F510E000000000002D852
+t1344229646
+s186450
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/Icon-72.png
+c00000000502890BA0000000000002B6C
+t1344835770
+s11116
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/Icon-Small-50.png
+c00000000502891000000000000001A70
+t1344835840
+s6768
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/Icon-Small.png
+c00000000502890E10000000000000D26
+t1344835809
+s3366
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/Icon-Small@2x.png
+c000000005028911C00000000000020A8
+t1344835868
+s8360
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/Icon.png
+c000000005028913A0000000000002001
+t1344835898
+s8193
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/Icon@2x.png
+c000000005028909A0000000000005735
+t1344835738
+s22325
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/MainWindow.xib
+c0000000050161C820000000000002117
+t1343626370
+s8471
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/Morse.aiff
+c00000000501F5113000000000000298E
+t1344229651
+s10638
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/Ping.aiff
+c00000000501F51160000000000008322
+t1344229654
+s33570
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/Pop.aiff
+c00000000501F511B00000000000005EE
+t1344229659
+s1518
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/Purr.aiff
+c00000000501F4E950000000000014E6A
+t1344229013
+s85610
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/Submarine.aiff
+c00000000501F5128000000000002A00E
+t1344229672
+s172046
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/Tink.aiff
+c00000000501F512A00000000000007AE
+t1344229674
+s1966
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app
+t1345179992
+s1088
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app.dSYM
+t1345179992
+s102
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/AlarmRepeat.nib
+t1345179985
+s3921
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/Basso.aiff
+t1345179985
+s14562
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/Blow.aiff
+t1345179985
+s233786
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/Bottle.aiff
+t1345179985
+s24604
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/Frog.aiff
+t1345179985
+s6082
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/Funk.aiff
+t1345179985
+s12846
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/Hero.aiff
+t1345179985
+s186450
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/Icon-72.png
+t1345179985
+s11116
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/Icon-Small-50.png
+t1345179985
+s6768
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/Icon-Small.png
+t1345179985
+s3366
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/Icon-Small@2x.png
+t1345179985
+s8360
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/Icon.png
+t1345179985
+s8193
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/Icon@2x.png
+t1345179985
+s22325
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/Info.plist
+t1345179978
+s751
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/MainView.nib
+t1345179982
+s4472
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/MainWindow.nib
+t1345179982
+s1534
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/Morse.aiff
+t1345179985
+s10638
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/Ping.aiff
+t1345179985
+s33570
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/PkgInfo
+t1345179978
+s8
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/Pop.aiff
+t1345179985
+s1518
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/Purr.aiff
+t1345179985
+s85610
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/RecordVoice.nib
+t1345179982
+s6518
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/SetAlarm.nib
+t1345179984
+s6682
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/Submarine.aiff
+t1345179985
+s172046
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/Tink.aiff
+t1345179985
+s1966
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/ViewAlarm.nib
+t1345179983
+s4985
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/iTalkAlarm
+t1345179992
+s85432
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/iTunesArtwork .png
+t1345179985
+s211197
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/setLabel.nib
+t1345179984
+s3692
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/setSound.nib
+t1345179984
+s3849
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/AlarmRepeat.o
+t1345179992
+s57432
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/CustomAlarmTable.o
+t1345179991
+s42844
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/CustomViewAlarmTable.o
+t1345179991
+s43240
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/MainView.o
+t1345179990
+s45556
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/RecordVoice.o
+t1345179990
+s71136
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/SetAlarm.o
+t1345179991
+s80092
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/ViewAlarm.o
+t1345179991
+s58276
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/iTalkAlarm.LinkFileList
+c00000000502DD14A00000000000005BA
+t1345179978
+s1466
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/iTalkAlarmAppDelegate.o
+t1345179990
+s75132
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/main.o
+t1345179990
+s6292
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/setLabel.o
+t1345179991
+s49604
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/setSound.o
+t1345179991
+s57336
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/iTalkAlarm_Prefix.pch
+c0000000050161C8200000000000000BD
+t1343626370
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/iTunesArtwork .png
+c0000000050288C7600000000000338FD
+t1344834678
+s211197
+
+N/Users/ugsoftware/Desktop/iTalkAlarm/main.m
+c0000000050161C820000000000000165
+t1343626370
+s357
+i<UIKit/UIKit.h>
+
+N/var/folders/nZ/nZExU1bOElGlXkz-Qkte3U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iTalkAlarm_Prefix-fegbufqtzjllmshjyincoblapddr/iTalkAlarm_Prefix.pch.gch
+t1345179989
+s15461808
+
+NiTalkAlarm-Info.plist
+c00000000502898C900000000000004A2
+t1344837833
+s1186
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies366872778#366872778#0(0"0(0#1#0"8613788416#0"0#
+
+CCompileC build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/AlarmRepeat.o /Users/ugsoftware/Desktop/iTalkAlarm/Classes/AlarmRepeat.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s366872791.995285
+e366872792.219063
+r1
+xCompileC
+xbuild/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/AlarmRepeat.o
+x/Users/ugsoftware/Desktop/iTalkAlarm/Classes/AlarmRepeat.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/ugsoftware/Desktop/iTalkAlarm/Classes/AlarmRepeat.m366872791#366872792#0(0"0(0#0#58"/Users/ugsoftware/Desktop/iTalkAlarm/Classes/AlarmRepeat.m8614417824#2015"    cd /Users/ugsoftware/Desktop/iTalkAlarm    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/iTalkAlarm-generated-files.hmap -I/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/iTalkAlarm-own-target-headers.hmap -I/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/iTalkAlarm-all-target-headers.hmap -iquote /Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/iTalkAlarm-project-headers.hmap -F/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator -I/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/include -I/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/DerivedSources/i386 -I/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/nZ/nZExU1bOElGlXkz-Qkte3U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iTalkAlarm_Prefix-fegbufqtzjllmshjyincoblapddr/iTalkAlarm_Prefix.pch -c /Users/ugsoftware/Desktop/iTalkAlarm/Classes/AlarmRepeat.m -o /Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/AlarmRepeat.o0#
+
+CCompileC build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/CustomAlarmTable.o /Users/ugsoftware/Desktop/iTalkAlarm/Classes/CustomAlarmTable.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s366872791.537076
+e366872791.648778
+r1
+xCompileC
+xbuild/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/CustomAlarmTable.o
+x/Users/ugsoftware/Desktop/iTalkAlarm/Classes/CustomAlarmTable.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/ugsoftware/Desktop/iTalkAlarm/Classes/CustomAlarmTable.m366872791#366872791#0(0"0(0#0#63"/Users/ugsoftware/Desktop/iTalkAlarm/Classes/CustomAlarmTable.m8610970720#2025"    cd /Users/ugsoftware/Desktop/iTalkAlarm    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/iTalkAlarm-generated-files.hmap -I/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/iTalkAlarm-own-target-headers.hmap -I/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/iTalkAlarm-all-target-headers.hmap -iquote /Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/iTalkAlarm-project-headers.hmap -F/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator -I/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/include -I/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/DerivedSources/i386 -I/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/nZ/nZExU1bOElGlXkz-Qkte3U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iTalkAlarm_Prefix-fegbufqtzjllmshjyincoblapddr/iTalkAlarm_Prefix.pch -c /Users/ugsoftware/Desktop/iTalkAlarm/Classes/CustomAlarmTable.m -o /Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/CustomAlarmTable.o0#
+
+CCompileC build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/CustomViewAlarmTable.o /Users/ugsoftware/Desktop/iTalkAlarm/Classes/CustomViewAlarmTable.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s366872791.879851
+e366872791.995174
+r1
+xCompileC
+xbuild/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/CustomViewAlarmTable.o
+x/Users/ugsoftware/Desktop/iTalkAlarm/Classes/CustomViewAlarmTable.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/ugsoftware/Desktop/iTalkAlarm/Classes/CustomViewAlarmTable.m366872791#366872791#0(0"0(0#0#67"/Users/ugsoftware/Desktop/iTalkAlarm/Classes/CustomViewAlarmTable.m8620873216#2033"    cd /Users/ugsoftware/Desktop/iTalkAlarm    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/iTalkAlarm-generated-files.hmap -I/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/iTalkAlarm-own-target-headers.hmap -I/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/iTalkAlarm-all-target-headers.hmap -iquote /Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/iTalkAlarm-project-headers.hmap -F/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator -I/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/include -I/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/DerivedSources/i386 -I/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/nZ/nZExU1bOElGlXkz-Qkte3U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iTalkAlarm_Prefix-fegbufqtzjllmshjyincoblapddr/iTalkAlarm_Prefix.pch -c /Users/ugsoftware/Desktop/iTalkAlarm/Classes/CustomViewAlarmTable.m -o /Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/CustomViewAlarmTable.o0#
+
+CCompileC build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/MainView.o /Users/ugsoftware/Desktop/iTalkAlarm/Classes/MainView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s366872790.658045
+e366872790.817613
+r1
+xCompileC
+xbuild/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/MainView.o
+x/Users/ugsoftware/Desktop/iTalkAlarm/Classes/MainView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/ugsoftware/Desktop/iTalkAlarm/Classes/MainView.m366872790#366872790#0(0"0(0#0#55"/Users/ugsoftware/Desktop/iTalkAlarm/Classes/MainView.m8614682176#2009"    cd /Users/ugsoftware/Desktop/iTalkAlarm    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/iTalkAlarm-generated-files.hmap -I/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/iTalkAlarm-own-target-headers.hmap -I/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/iTalkAlarm-all-target-headers.hmap -iquote /Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/iTalkAlarm-project-headers.hmap -F/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator -I/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/include -I/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/DerivedSources/i386 -I/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/nZ/nZExU1bOElGlXkz-Qkte3U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iTalkAlarm_Prefix-fegbufqtzjllmshjyincoblapddr/iTalkAlarm_Prefix.pch -c /Users/ugsoftware/Desktop/iTalkAlarm/Classes/MainView.m -o /Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/MainView.o0#
+
+CCompileC build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/RecordVoice.o /Users/ugsoftware/Desktop/iTalkAlarm/Classes/RecordVoice.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s366872790.371593
+e366872790.657942
+r1
+xCompileC
+xbuild/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/RecordVoice.o
+x/Users/ugsoftware/Desktop/iTalkAlarm/Classes/RecordVoice.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/ugsoftware/Desktop/iTalkAlarm/Classes/RecordVoice.m366872790#366872790#0(0"0(0#0#58"/Users/ugsoftware/Desktop/iTalkAlarm/Classes/RecordVoice.m8621041504#2015"    cd /Users/ugsoftware/Desktop/iTalkAlarm    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/iTalkAlarm-generated-files.hmap -I/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/iTalkAlarm-own-target-headers.hmap -I/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/iTalkAlarm-all-target-headers.hmap -iquote /Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/iTalkAlarm-project-headers.hmap -F/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator -I/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/include -I/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/DerivedSources/i386 -I/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/nZ/nZExU1bOElGlXkz-Qkte3U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iTalkAlarm_Prefix-fegbufqtzjllmshjyincoblapddr/iTalkAlarm_Prefix.pch -c /Users/ugsoftware/Desktop/iTalkAlarm/Classes/RecordVoice.m -o /Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/RecordVoice.o0#
+
+CCompileC build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/SetAlarm.o /Users/ugsoftware/Desktop/iTalkAlarm/Classes/SetAlarm.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s366872790.817712
+e366872791.159945
+r1
+xCompileC
+xbuild/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/SetAlarm.o
+x/Users/ugsoftware/Desktop/iTalkAlarm/Classes/SetAlarm.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/ugsoftware/Desktop/iTalkAlarm/Classes/SetAlarm.m366872790#366872791#0(0"0(0#0#55"/Users/ugsoftware/Desktop/iTalkAlarm/Classes/SetAlarm.m8613050624#2009"    cd /Users/ugsoftware/Desktop/iTalkAlarm    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/iTalkAlarm-generated-files.hmap -I/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/iTalkAlarm-own-target-headers.hmap -I/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/iTalkAlarm-all-target-headers.hmap -iquote /Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/iTalkAlarm-project-headers.hmap -F/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator -I/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/include -I/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/DerivedSources/i386 -I/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/nZ/nZExU1bOElGlXkz-Qkte3U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iTalkAlarm_Prefix-fegbufqtzjllmshjyincoblapddr/iTalkAlarm_Prefix.pch -c /Users/ugsoftware/Desktop/iTalkAlarm/Classes/SetAlarm.m -o /Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/SetAlarm.o0#
+
+CCompileC build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/ViewAlarm.o /Users/ugsoftware/Desktop/iTalkAlarm/Classes/ViewAlarm.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s366872791.160051
+e366872791.360590
+r1
+xCompileC
+xbuild/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/ViewAlarm.o
+x/Users/ugsoftware/Desktop/iTalkAlarm/Classes/ViewAlarm.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/ugsoftware/Desktop/iTalkAlarm/Classes/ViewAlarm.m366872791#366872791#0(0"0(0#0#56"/Users/ugsoftware/Desktop/iTalkAlarm/Classes/ViewAlarm.m8621023744#2011"    cd /Users/ugsoftware/Desktop/iTalkAlarm    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/iTalkAlarm-generated-files.hmap -I/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/iTalkAlarm-own-target-headers.hmap -I/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/iTalkAlarm-all-target-headers.hmap -iquote /Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/iTalkAlarm-project-headers.hmap -F/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator -I/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/include -I/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/DerivedSources/i386 -I/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/nZ/nZExU1bOElGlXkz-Qkte3U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iTalkAlarm_Prefix-fegbufqtzjllmshjyincoblapddr/iTalkAlarm_Prefix.pch -c /Users/ugsoftware/Desktop/iTalkAlarm/Classes/ViewAlarm.m -o /Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/ViewAlarm.o0#
+
+CCompileC build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/iTalkAlarmAppDelegate.o /Users/ugsoftware/Desktop/iTalkAlarm/Classes/iTalkAlarmAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s366872790.022798
+e366872790.371493
+r1
+xCompileC
+xbuild/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/iTalkAlarmAppDelegate.o
+x/Users/ugsoftware/Desktop/iTalkAlarm/Classes/iTalkAlarmAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/ugsoftware/Desktop/iTalkAlarm/Classes/iTalkAlarmAppDelegate.m366872790#366872790#0(0"0(0#0#68"/Users/ugsoftware/Desktop/iTalkAlarm/Classes/iTalkAlarmAppDelegate.m8612854016#2035"    cd /Users/ugsoftware/Desktop/iTalkAlarm    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/iTalkAlarm-generated-files.hmap -I/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/iTalkAlarm-own-target-headers.hmap -I/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/iTalkAlarm-all-target-headers.hmap -iquote /Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/iTalkAlarm-project-headers.hmap -F/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator -I/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/include -I/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/DerivedSources/i386 -I/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/nZ/nZExU1bOElGlXkz-Qkte3U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iTalkAlarm_Prefix-fegbufqtzjllmshjyincoblapddr/iTalkAlarm_Prefix.pch -c /Users/ugsoftware/Desktop/iTalkAlarm/Classes/iTalkAlarmAppDelegate.m -o /Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/iTalkAlarmAppDelegate.o0#
+
+CCompileC build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/main.o /Users/ugsoftware/Desktop/iTalkAlarm/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s366872789.828746
+e366872790.022694
+r1
+xCompileC
+xbuild/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/main.o
+x/Users/ugsoftware/Desktop/iTalkAlarm/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/ugsoftware/Desktop/iTalkAlarm/main.m366872789#366872790#0(0"0(0#0#43"/Users/ugsoftware/Desktop/iTalkAlarm/main.m8614299360#1993"    cd /Users/ugsoftware/Desktop/iTalkAlarm    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/iTalkAlarm-generated-files.hmap -I/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/iTalkAlarm-own-target-headers.hmap -I/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/iTalkAlarm-all-target-headers.hmap -iquote /Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/iTalkAlarm-project-headers.hmap -F/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator -I/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/include -I/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/DerivedSources/i386 -I/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/nZ/nZExU1bOElGlXkz-Qkte3U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iTalkAlarm_Prefix-fegbufqtzjllmshjyincoblapddr/iTalkAlarm_Prefix.pch -c /Users/ugsoftware/Desktop/iTalkAlarm/main.m -o /Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/main.o0#
+
+CCompileC build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/setLabel.o /Users/ugsoftware/Desktop/iTalkAlarm/Classes/setLabel.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s366872791.360747
+e366872791.536971
+r1
+xCompileC
+xbuild/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/setLabel.o
+x/Users/ugsoftware/Desktop/iTalkAlarm/Classes/setLabel.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/ugsoftware/Desktop/iTalkAlarm/Classes/setLabel.m366872791#366872791#0(0"0(0#0#55"/Users/ugsoftware/Desktop/iTalkAlarm/Classes/setLabel.m8613694272#2009"    cd /Users/ugsoftware/Desktop/iTalkAlarm    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/iTalkAlarm-generated-files.hmap -I/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/iTalkAlarm-own-target-headers.hmap -I/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/iTalkAlarm-all-target-headers.hmap -iquote /Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/iTalkAlarm-project-headers.hmap -F/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator -I/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/include -I/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/DerivedSources/i386 -I/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/nZ/nZExU1bOElGlXkz-Qkte3U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iTalkAlarm_Prefix-fegbufqtzjllmshjyincoblapddr/iTalkAlarm_Prefix.pch -c /Users/ugsoftware/Desktop/iTalkAlarm/Classes/setLabel.m -o /Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/setLabel.o0#
+
+CCompileC build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/setSound.o /Users/ugsoftware/Desktop/iTalkAlarm/Classes/setSound.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s366872791.648880
+e366872791.879742
+r1
+xCompileC
+xbuild/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/setSound.o
+x/Users/ugsoftware/Desktop/iTalkAlarm/Classes/setSound.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/ugsoftware/Desktop/iTalkAlarm/Classes/setSound.m366872791#366872791#0(0"0(0#0#55"/Users/ugsoftware/Desktop/iTalkAlarm/Classes/setSound.m8620813504#2009"    cd /Users/ugsoftware/Desktop/iTalkAlarm    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/iTalkAlarm-generated-files.hmap -I/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/iTalkAlarm-own-target-headers.hmap -I/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/iTalkAlarm-all-target-headers.hmap -iquote /Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/iTalkAlarm-project-headers.hmap -F/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator -I/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/include -I/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/DerivedSources/i386 -I/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/nZ/nZExU1bOElGlXkz-Qkte3U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iTalkAlarm_Prefix-fegbufqtzjllmshjyincoblapddr/iTalkAlarm_Prefix.pch -c /Users/ugsoftware/Desktop/iTalkAlarm/Classes/setSound.m -o /Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/setSound.o0#
+
+CCompileXIB /Users/ugsoftware/Desktop/iTalkAlarm/Classes/AlarmRepeat.xib
+s366872785.042793
+e366872785.625056
+r1
+xCompileXIB
+x/Users/ugsoftware/Desktop/iTalkAlarm/Classes/AlarmRepeat.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@34"CompileXIB Classes/AlarmRepeat.xib366872785#366872785#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#60"/Users/ugsoftware/Desktop/iTalkAlarm/Classes/AlarmRepeat.xib8614541664#577"    cd /Users/ugsoftware/Desktop/iTalkAlarm    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/AlarmRepeat.nib /Users/ugsoftware/Desktop/iTalkAlarm/Classes/AlarmRepeat.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/ugsoftware/Desktop/iTalkAlarm/Classes/MainView.xib
+s366872782.274720
+e366872782.978806
+r1
+xCompileXIB
+x/Users/ugsoftware/Desktop/iTalkAlarm/Classes/MainView.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@31"CompileXIB Classes/MainView.xib366872782#366872782#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#57"/Users/ugsoftware/Desktop/iTalkAlarm/Classes/MainView.xib8619254304#571"    cd /Users/ugsoftware/Desktop/iTalkAlarm    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/MainView.nib /Users/ugsoftware/Desktop/iTalkAlarm/Classes/MainView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/ugsoftware/Desktop/iTalkAlarm/Classes/RecordVoice.xib
+s366872778.408000
+e366872782.274639
+r1
+xCompileXIB
+x/Users/ugsoftware/Desktop/iTalkAlarm/Classes/RecordVoice.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@34"CompileXIB Classes/RecordVoice.xib366872778#366872782#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#60"/Users/ugsoftware/Desktop/iTalkAlarm/Classes/RecordVoice.xib8619632128#577"    cd /Users/ugsoftware/Desktop/iTalkAlarm    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/RecordVoice.nib /Users/ugsoftware/Desktop/iTalkAlarm/Classes/RecordVoice.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/ugsoftware/Desktop/iTalkAlarm/Classes/SetAlarm.xib
+s366872782.301679
+e366872784.531169
+r1
+xCompileXIB
+x/Users/ugsoftware/Desktop/iTalkAlarm/Classes/SetAlarm.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@31"CompileXIB Classes/SetAlarm.xib366872782#366872784#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#57"/Users/ugsoftware/Desktop/iTalkAlarm/Classes/SetAlarm.xib8614686912#571"    cd /Users/ugsoftware/Desktop/iTalkAlarm    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/SetAlarm.nib /Users/ugsoftware/Desktop/iTalkAlarm/Classes/SetAlarm.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/ugsoftware/Desktop/iTalkAlarm/Classes/ViewAlarm.xib
+s366872782.978897
+e366872783.943928
+r1
+xCompileXIB
+x/Users/ugsoftware/Desktop/iTalkAlarm/Classes/ViewAlarm.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@32"CompileXIB Classes/ViewAlarm.xib366872782#366872783#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#58"/Users/ugsoftware/Desktop/iTalkAlarm/Classes/ViewAlarm.xib8622024000#573"    cd /Users/ugsoftware/Desktop/iTalkAlarm    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/ViewAlarm.nib /Users/ugsoftware/Desktop/iTalkAlarm/Classes/ViewAlarm.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/ugsoftware/Desktop/iTalkAlarm/Classes/setLabel.xib
+s366872783.944082
+e366872784.941391
+r1
+xCompileXIB
+x/Users/ugsoftware/Desktop/iTalkAlarm/Classes/setLabel.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@31"CompileXIB Classes/setLabel.xib366872783#366872784#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#57"/Users/ugsoftware/Desktop/iTalkAlarm/Classes/setLabel.xib8621069344#571"    cd /Users/ugsoftware/Desktop/iTalkAlarm    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/setLabel.nib /Users/ugsoftware/Desktop/iTalkAlarm/Classes/setLabel.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/ugsoftware/Desktop/iTalkAlarm/Classes/setSound.xib
+s366872784.531257
+e366872785.030073
+r1
+xCompileXIB
+x/Users/ugsoftware/Desktop/iTalkAlarm/Classes/setSound.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@31"CompileXIB Classes/setSound.xib366872784#366872785#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#57"/Users/ugsoftware/Desktop/iTalkAlarm/Classes/setSound.xib8619924032#571"    cd /Users/ugsoftware/Desktop/iTalkAlarm    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/setSound.nib /Users/ugsoftware/Desktop/iTalkAlarm/Classes/setSound.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/ugsoftware/Desktop/iTalkAlarm/MainWindow.xib
+s366872778.407290
+e366872782.274407
+r1
+xCompileXIB
+x/Users/ugsoftware/Desktop/iTalkAlarm/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib366872778#366872782#0(0"0(0#0#51"/Users/ugsoftware/Desktop/iTalkAlarm/MainWindow.xib30399714102083688#567"    cd /Users/ugsoftware/Desktop/iTalkAlarm    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/MainWindow.nib /Users/ugsoftware/Desktop/iTalkAlarm/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCpResource "build/Adhoc-iphonesimulator/iTalkAlarm.app/iTunesArtwork .png" "iTunesArtwork .png"
+s366872785.201122
+e366872785.321128
+r1
+xCpResource
+xbuild/Adhoc-iphonesimulator/iTalkAlarm.app/iTunesArtwork .png
+xiTunesArtwork .png
+lSLF07#2@23"Copy iTunesArtwork .png366872785#366872785#0(0"0(0#0#55"/Users/ugsoftware/Desktop/iTalkAlarm/iTunesArtwork .png8619217440#496"    cd /Users/ugsoftware/Desktop/iTalkAlarm    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/ugsoftware/Desktop/iTalkAlarm/iTunesArtwork .png" /Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app0#
+
+CCpResource build/Adhoc-iphonesimulator/iTalkAlarm.app/Basso.aiff Basso.aiff
+s366872784.942541
+e366872785.054053
+r1
+xCpResource
+xbuild/Adhoc-iphonesimulator/iTalkAlarm.app/Basso.aiff
+xBasso.aiff
+lSLF07#2@15"Copy Basso.aiff366872784#366872785#0(0"0(0#0#47"/Users/ugsoftware/Desktop/iTalkAlarm/Basso.aiff8613550912#486"    cd /Users/ugsoftware/Desktop/iTalkAlarm    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/ugsoftware/Desktop/iTalkAlarm/Basso.aiff /Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app0#
+
+CCpResource build/Adhoc-iphonesimulator/iTalkAlarm.app/Blow.aiff Blow.aiff
+s366872784.944491
+e366872785.201029
+r1
+xCpResource
+xbuild/Adhoc-iphonesimulator/iTalkAlarm.app/Blow.aiff
+xBlow.aiff
+lSLF07#2@14"Copy Blow.aiff366872784#366872785#0(0"0(0#0#46"/Users/ugsoftware/Desktop/iTalkAlarm/Blow.aiff8613088896#485"    cd /Users/ugsoftware/Desktop/iTalkAlarm    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/ugsoftware/Desktop/iTalkAlarm/Blow.aiff /Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app0#
+
+CCpResource build/Adhoc-iphonesimulator/iTalkAlarm.app/Bottle.aiff Bottle.aiff
+s366872784.946533
+e366872785.031807
+r1
+xCpResource
+xbuild/Adhoc-iphonesimulator/iTalkAlarm.app/Bottle.aiff
+xBottle.aiff
+lSLF07#2@16"Copy Bottle.aiff366872784#366872785#0(0"0(0#0#48"/Users/ugsoftware/Desktop/iTalkAlarm/Bottle.aiff8612720704#487"    cd /Users/ugsoftware/Desktop/iTalkAlarm    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/ugsoftware/Desktop/iTalkAlarm/Bottle.aiff /Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app0#
+
+CCpResource build/Adhoc-iphonesimulator/iTalkAlarm.app/Frog.aiff Frog.aiff
+s366872784.947561
+e366872785.188272
+r1
+xCpResource
+xbuild/Adhoc-iphonesimulator/iTalkAlarm.app/Frog.aiff
+xFrog.aiff
+lSLF07#2@14"Copy Frog.aiff366872784#366872785#0(0"0(0#0#46"/Users/ugsoftware/Desktop/iTalkAlarm/Frog.aiff8611710944#485"    cd /Users/ugsoftware/Desktop/iTalkAlarm    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/ugsoftware/Desktop/iTalkAlarm/Frog.aiff /Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app0#
+
+CCpResource build/Adhoc-iphonesimulator/iTalkAlarm.app/Funk.aiff Funk.aiff
+s366872784.949768
+e366872785.038510
+r1
+xCpResource
+xbuild/Adhoc-iphonesimulator/iTalkAlarm.app/Funk.aiff
+xFunk.aiff
+lSLF07#2@14"Copy Funk.aiff366872784#366872785#0(0"0(0#0#46"/Users/ugsoftware/Desktop/iTalkAlarm/Funk.aiff8611172768#485"    cd /Users/ugsoftware/Desktop/iTalkAlarm    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/ugsoftware/Desktop/iTalkAlarm/Funk.aiff /Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app0#
+
+CCpResource build/Adhoc-iphonesimulator/iTalkAlarm.app/Hero.aiff Hero.aiff
+s366872784.950777
+e366872785.197700
+r1
+xCpResource
+xbuild/Adhoc-iphonesimulator/iTalkAlarm.app/Hero.aiff
+xHero.aiff
+lSLF07#2@14"Copy Hero.aiff366872784#366872785#0(0"0(0#0#46"/Users/ugsoftware/Desktop/iTalkAlarm/Hero.aiff8610696768#485"    cd /Users/ugsoftware/Desktop/iTalkAlarm    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/ugsoftware/Desktop/iTalkAlarm/Hero.aiff /Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app0#
+
+CCpResource build/Adhoc-iphonesimulator/iTalkAlarm.app/Icon-72.png Icon-72.png
+s366872785.207149
+e366872785.231943
+r1
+xCpResource
+xbuild/Adhoc-iphonesimulator/iTalkAlarm.app/Icon-72.png
+xIcon-72.png
+lSLF07#2@16"Copy Icon-72.png366872785#366872785#0(0"0(0#0#48"/Users/ugsoftware/Desktop/iTalkAlarm/Icon-72.png8622781600#487"    cd /Users/ugsoftware/Desktop/iTalkAlarm    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/ugsoftware/Desktop/iTalkAlarm/Icon-72.png /Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app0#
+
+CCpResource build/Adhoc-iphonesimulator/iTalkAlarm.app/Icon-Small-50.png Icon-Small-50.png
+s366872785.215822
+e366872785.289267
+r1
+xCpResource
+xbuild/Adhoc-iphonesimulator/iTalkAlarm.app/Icon-Small-50.png
+xIcon-Small-50.png
+lSLF07#2@22"Copy Icon-Small-50.png366872785#366872785#0(0"0(0#0#54"/Users/ugsoftware/Desktop/iTalkAlarm/Icon-Small-50.png8621196128#493"    cd /Users/ugsoftware/Desktop/iTalkAlarm    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/ugsoftware/Desktop/iTalkAlarm/Icon-Small-50.png /Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app0#
+
+CCpResource build/Adhoc-iphonesimulator/iTalkAlarm.app/Icon-Small.png Icon-Small.png
+s366872785.222772
+e366872785.315317
+r1
+xCpResource
+xbuild/Adhoc-iphonesimulator/iTalkAlarm.app/Icon-Small.png
+xIcon-Small.png
+lSLF07#2@19"Copy Icon-Small.png366872785#366872785#0(0"0(0#0#51"/Users/ugsoftware/Desktop/iTalkAlarm/Icon-Small.png8622704768#490"    cd /Users/ugsoftware/Desktop/iTalkAlarm    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/ugsoftware/Desktop/iTalkAlarm/Icon-Small.png /Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app0#
+
+CCpResource build/Adhoc-iphonesimulator/iTalkAlarm.app/Icon-Small@2x.png Icon-Small@2x.png
+s366872785.216679
+e366872785.302406
+r1
+xCpResource
+xbuild/Adhoc-iphonesimulator/iTalkAlarm.app/Icon-Small@2x.png
+xIcon-Small@2x.png
+lSLF07#2@22"Copy Icon-Small@2x.png366872785#366872785#0(0"0(0#0#54"/Users/ugsoftware/Desktop/iTalkAlarm/Icon-Small@2x.png8612800192#493"    cd /Users/ugsoftware/Desktop/iTalkAlarm    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/ugsoftware/Desktop/iTalkAlarm/Icon-Small@2x.png /Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app0#
+
+CCpResource build/Adhoc-iphonesimulator/iTalkAlarm.app/Icon.png Icon.png
+s366872785.221725
+e366872785.295664
+r1
+xCpResource
+xbuild/Adhoc-iphonesimulator/iTalkAlarm.app/Icon.png
+xIcon.png
+lSLF07#2@13"Copy Icon.png366872785#366872785#0(0"0(0#0#45"/Users/ugsoftware/Desktop/iTalkAlarm/Icon.png8610832064#484"    cd /Users/ugsoftware/Desktop/iTalkAlarm    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/ugsoftware/Desktop/iTalkAlarm/Icon.png /Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app0#
+
+CCpResource build/Adhoc-iphonesimulator/iTalkAlarm.app/Icon@2x.png Icon@2x.png
+s366872785.206071
+e366872785.244328
+r1
+xCpResource
+xbuild/Adhoc-iphonesimulator/iTalkAlarm.app/Icon@2x.png
+xIcon@2x.png
+lSLF07#2@16"Copy Icon@2x.png366872785#366872785#0(0"0(0#0#48"/Users/ugsoftware/Desktop/iTalkAlarm/Icon@2x.png8611428320#487"    cd /Users/ugsoftware/Desktop/iTalkAlarm    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/ugsoftware/Desktop/iTalkAlarm/Icon@2x.png /Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app0#
+
+CCpResource build/Adhoc-iphonesimulator/iTalkAlarm.app/Morse.aiff Morse.aiff
+s366872784.952704
+e366872785.042702
+r1
+xCpResource
+xbuild/Adhoc-iphonesimulator/iTalkAlarm.app/Morse.aiff
+xMorse.aiff
+lSLF07#2@15"Copy Morse.aiff366872784#366872785#0(0"0(0#0#47"/Users/ugsoftware/Desktop/iTalkAlarm/Morse.aiff8610426656#486"    cd /Users/ugsoftware/Desktop/iTalkAlarm    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/ugsoftware/Desktop/iTalkAlarm/Morse.aiff /Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app0#
+
+CCpResource build/Adhoc-iphonesimulator/iTalkAlarm.app/Ping.aiff Ping.aiff
+s366872784.954557
+e366872785.188544
+r1
+xCpResource
+xbuild/Adhoc-iphonesimulator/iTalkAlarm.app/Ping.aiff
+xPing.aiff
+lSLF07#2@14"Copy Ping.aiff366872784#366872785#0(0"0(0#0#46"/Users/ugsoftware/Desktop/iTalkAlarm/Ping.aiff8598993056#485"    cd /Users/ugsoftware/Desktop/iTalkAlarm    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/ugsoftware/Desktop/iTalkAlarm/Ping.aiff /Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app0#
+
+CCpResource build/Adhoc-iphonesimulator/iTalkAlarm.app/Pop.aiff Pop.aiff
+s366872785.030168
+e366872785.188082
+r1
+xCpResource
+xbuild/Adhoc-iphonesimulator/iTalkAlarm.app/Pop.aiff
+xPop.aiff
+lSLF07#2@13"Copy Pop.aiff366872785#366872785#0(0"0(0#0#45"/Users/ugsoftware/Desktop/iTalkAlarm/Pop.aiff8610254368#484"    cd /Users/ugsoftware/Desktop/iTalkAlarm    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/ugsoftware/Desktop/iTalkAlarm/Pop.aiff /Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app0#
+
+CCpResource build/Adhoc-iphonesimulator/iTalkAlarm.app/Purr.aiff Purr.aiff
+s366872784.941486
+e366872785.190906
+r1
+xCpResource
+xbuild/Adhoc-iphonesimulator/iTalkAlarm.app/Purr.aiff
+xPurr.aiff
+lSLF07#2@14"Copy Purr.aiff366872784#366872785#0(0"0(0#0#46"/Users/ugsoftware/Desktop/iTalkAlarm/Purr.aiff8614259104#485"    cd /Users/ugsoftware/Desktop/iTalkAlarm    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/ugsoftware/Desktop/iTalkAlarm/Purr.aiff /Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app0#
+
+CCpResource build/Adhoc-iphonesimulator/iTalkAlarm.app/Submarine.aiff Submarine.aiff
+s366872785.031895
+e366872785.198577
+r1
+xCpResource
+xbuild/Adhoc-iphonesimulator/iTalkAlarm.app/Submarine.aiff
+xSubmarine.aiff
+lSLF07#2@19"Copy Submarine.aiff366872785#366872785#0(0"0(0#0#51"/Users/ugsoftware/Desktop/iTalkAlarm/Submarine.aiff8623099840#490"    cd /Users/ugsoftware/Desktop/iTalkAlarm    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/ugsoftware/Desktop/iTalkAlarm/Submarine.aiff /Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app0#
+
+CCpResource build/Adhoc-iphonesimulator/iTalkAlarm.app/Tink.aiff Tink.aiff
+s366872785.038602
+e366872785.188426
+r1
+xCpResource
+xbuild/Adhoc-iphonesimulator/iTalkAlarm.app/Tink.aiff
+xTink.aiff
+lSLF07#2@14"Copy Tink.aiff366872785#366872785#0(0"0(0#0#46"/Users/ugsoftware/Desktop/iTalkAlarm/Tink.aiff8621271872#485"    cd /Users/ugsoftware/Desktop/iTalkAlarm    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/ugsoftware/Desktop/iTalkAlarm/Tink.aiff /Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app0#
+
+CGenerateDSYMFile /Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app.dSYM /Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/iTalkAlarm
+s366872792.815077
+e366872792.895549
+r1
+xGenerateDSYMFile
+x/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app.dSYM
+x/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/iTalkAlarm
+lSLF07#2@118"GenerateDSYMFile build/Adhoc-iphonesimulator/iTalkAlarm.app.dSYM build/Adhoc-iphonesimulator/iTalkAlarm.app/iTalkAlarm366872792#366872792#0(0"0(0#0#90"/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/iTalkAlarm8621016320#386"    cd /Users/ugsoftware/Desktop/iTalkAlarm    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/iTalkAlarm -o /Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app.dSYM0#
+
+CLd /Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/iTalkAlarm normal i386
+s366872792.219165
+e366872792.814754
+r1
+xLd
+x/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/iTalkAlarm
+xnormal
+xi386
+lSLF07#2@95"Link /Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/iTalkAlarm366872792#366872792#0(0"0(0#0#0"8611587424#1019"    cd /Users/ugsoftware/Desktop/iTalkAlarm    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator -F/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator -filelist /Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/Objects-normal/i386/iTalkAlarm.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework AudioToolbox -framework AVFoundation -framework CoreAudio -framework QuartzCore -framework MediaPlayer -o /Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/iTalkAlarm0#
+
+CProcessInfoPlistFile /Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/Info.plist iTalkAlarm-Info.plist
+s366872778.352227
+e366872778.407122
+r1
+xProcessInfoPlistFile
+x/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/Info.plist
+xiTalkAlarm-Info.plist
+lSLF07#2@29"Process iTalkAlarm-Info.plist366872778#366872778#0(0"0(0#0#58"/Users/ugsoftware/Desktop/iTalkAlarm/iTalkAlarm-Info.plist8623216832#482"    cd /Users/ugsoftware/Desktop/iTalkAlarm    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility iTalkAlarm-Info.plist -genpkginfo /Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app/Info.plist0#
+
+CProcessPCH /var/folders/nZ/nZExU1bOElGlXkz-Qkte3U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iTalkAlarm_Prefix-fegbufqtzjllmshjyincoblapddr/iTalkAlarm_Prefix.pch.gch iTalkAlarm_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s366872785.625238
+e366872789.828593
+r1
+xProcessPCH
+x/var/folders/nZ/nZExU1bOElGlXkz-Qkte3U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iTalkAlarm_Prefix-fegbufqtzjllmshjyincoblapddr/iTalkAlarm_Prefix.pch.gch
+xiTalkAlarm_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile iTalkAlarm_Prefix.pch366872785#366872789#0(0"0(0#0#58"/Users/ugsoftware/Desktop/iTalkAlarm/iTalkAlarm_Prefix.pch8620963424#1884"    cd /Users/ugsoftware/Desktop/iTalkAlarm    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/iTalkAlarm-generated-files.hmap -I/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/iTalkAlarm-own-target-headers.hmap -I/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/iTalkAlarm-all-target-headers.hmap -iquote /Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/iTalkAlarm-project-headers.hmap -F/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator -I/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/include -I/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/DerivedSources/i386 -I/Users/ugsoftware/Desktop/iTalkAlarm/build/iTalkAlarm.build/Adhoc-iphonesimulator/iTalkAlarm.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/ugsoftware/Desktop/iTalkAlarm/iTalkAlarm_Prefix.pch -o /var/folders/nZ/nZExU1bOElGlXkz-Qkte3U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iTalkAlarm_Prefix-fegbufqtzjllmshjyincoblapddr/iTalkAlarm_Prefix.pch.gch0#
+
+CTouch /Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app
+s366872792.895700
+e366872792.900028
+r1
+xTouch
+x/Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app
+lSLF07#2@85"Touch /Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app366872792#366872792#0(0"0(0#0#0"8619259904#277"    cd /Users/ugsoftware/Desktop/iTalkAlarm    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/ugsoftware/Desktop/iTalkAlarm/build/Adhoc-iphonesimulator/iTalkAlarm.app0#
+
